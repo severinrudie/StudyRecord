@@ -1,6 +1,8 @@
-import java.lang.Integer.max
+package y2020.oct12th
 
-private object Scratch {
+object LC5LongestPalindromicSubstring {
+    // Time : O(n ^ 2)
+    // Space: O(1)
     fun longestPalindrome(s: String): String {
         if (s.isEmpty()) return ""
         var best = s.first().toString()
@@ -18,6 +20,7 @@ private object Scratch {
 
     fun maxFrom(s: String, start: Int, end: Int): String {
         if (start < 0 || end > s.lastIndex) return ""
+        if (s[start] != s[end]) return ""
         var start = start
         var end = end
         while (start > 0 && end < s.lastIndex && s[start - 1] == s[end + 1]) {
