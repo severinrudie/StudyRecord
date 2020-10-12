@@ -1,4 +1,4 @@
-package oct12th
+package y2020.oct12th
 
 object LC1TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {

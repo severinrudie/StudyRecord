@@ -1,6 +1,6 @@
-package oct12th
+package y2020.oct12th
 
-import oct12th.LC2AddTwoNumbers.addTwoNumbers
+import y2020.oct12th.LC2AddTwoNumbers.addTwoNumbers
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 

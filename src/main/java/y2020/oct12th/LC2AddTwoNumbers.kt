@@ -1,4 +1,4 @@
-package oct12th
+package y2020.oct12th
 
 class ListNode(val `val`: Int) {
     var next: ListNode? = null
