@@ -1,10 +1,10 @@
 package oct12th
 
-import oct12th.AddTwoNumbers.addTwoNumbers
+import oct12th.LC2AddTwoNumbers.addTwoNumbers
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-internal class AddTwoNumbersTest {
+internal class LC2AddTwoNumbersTest {
 
     @Test
     fun tc1() {

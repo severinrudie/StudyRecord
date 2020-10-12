@@ -1,10 +1,10 @@
 package oct12th
 
-import oct12th.TwoSum.twoSum
+import oct12th.LC1TwoSum.twoSum
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-internal class TwoSumTest {
+internal class LC1TwoSumTest {
     @Test
     fun tc1() {
         check(intArrayOf(0,1), twoSum(intArrayOf(2,7,11,15), 9))

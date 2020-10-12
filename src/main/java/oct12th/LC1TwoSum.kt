@@ -1,6 +1,6 @@
 package oct12th
 
-object TwoSum {
+object LC1TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         val encountered = mutableMapOf<Int, Int>()
         nums.forEachIndexed { i, num ->
