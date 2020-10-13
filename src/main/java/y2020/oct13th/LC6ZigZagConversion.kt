@@ -3,6 +3,8 @@ package y2020.oct13th
 import kotlin.math.abs
 
 // TODO bad solution, rewrite
+// O(n) time
+// O(n) space
 object LC6ZigZagConversion {
     fun zigZagConversion(s: String, numRows: Int): String {
         if (numRows > s.length) return s

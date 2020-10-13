@@ -6,7 +6,8 @@ internal class ScratchTest {
     @Test
     fun t() {
 
-        println(Scratch.t().takeWhile { it < 100 }.toList())
+        println(listOf(1, 2, 3).zip(listOf('a')))
+
     }
 
 
