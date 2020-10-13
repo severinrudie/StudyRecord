@@ -12,6 +12,7 @@ class ListNode(val `val`: Int) {
     }
 }
 
+// TODO bad solution, rewrite
 object LC2AddTwoNumbers {
     fun addTwoNumbers(l1: ListNode, l2: ListNode): ListNode? {
         val (long, short) = longShort(l1.toStr(), l2.toStr())

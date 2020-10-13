@@ -1,29 +1,29 @@
 import java.lang.Integer.max
+import kotlin.math.abs
 
-private object Scratch {
-    fun longestPalindrome(s: String): String {
-        if (s.isEmpty()) return ""
-        var best = s.first().toString()
+object Scratch {
+fun t() = generateSequence(listOf(0)) { t -> listOf(t.last() + 3, t.last() + 3 + 2) }
+        .flatten()
 
-        s.forEachIndexed { i, c ->
-            best = listOf(
-                    best,
-                    maxFrom(s, i, i),
-                    maxFrom(s, i, i + 1)
-            ).maxBy { it.length }!!
+
+
+
+
+    fun x() {
+
+        (0 until 5).map { listOf(it) }
+                .flatten()
+
+
+        val diagonalOffset = 5
+        val columnOffset = 5
+
+        abs(5)
+
+
+        generateSequence(listOf(0)) {
+            listOf(it.last() + diagonalOffset, it.last() + columnOffset)
         }
-
-        return best
-    }
-
-    fun maxFrom(s: String, start: Int, end: Int): String {
-        if (start < 0 || end > s.lastIndex) return ""
-        var start = start
-        var end = end
-        while (start > 0 && end < s.lastIndex && s[start - 1] == s[end + 1]) {
-            start--
-            end++
-        }
-        return s.substring(start, end + 1)
+            .flatten()
     }
 }
