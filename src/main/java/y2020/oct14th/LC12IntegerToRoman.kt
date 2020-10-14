@@ -2,7 +2,7 @@ package y2020.oct14th
 
 import java.lang.StringBuilder
 
-// Easy, 55%
+// Medium, 55%
 // O(n)
 object LC12IntegerToRoman {
     fun intToRoman(num: Int): String {
