@@ -6,6 +6,5 @@ Faster available
 
 
 Skipped
-11 - container with most water
 15-3sum
 16-3sum closest
