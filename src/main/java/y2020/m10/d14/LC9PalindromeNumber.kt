@@ -1,4 +1,4 @@
-package y2020.oct14th
+package y2020.m10.d14
 
 // Easy, 48% acceptance
 // O(n) time, O(n) space

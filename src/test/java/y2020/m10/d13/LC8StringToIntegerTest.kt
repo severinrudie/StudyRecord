@@ -1,8 +1,8 @@
-package y2020.oct13th
+package y2020.m10.d13
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import y2020.oct13th.LC8StringToInteger.myAtoi
+import y2020.m10.d13.LC8StringToInteger.myAtoi
 
 internal class LC8StringToIntegerTest {
     @Test

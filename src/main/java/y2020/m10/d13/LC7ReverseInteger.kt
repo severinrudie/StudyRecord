@@ -1,4 +1,4 @@
-package y2020.oct13th
+package y2020.m10.d13
 
 // Brute force.  Slow due to string allocation
 object LC7ReverseInteger {

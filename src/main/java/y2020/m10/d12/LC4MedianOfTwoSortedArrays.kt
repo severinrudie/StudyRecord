@@ -1,4 +1,4 @@
-package y2020.oct12th
+package y2020.m10.d12
 
 object LC4MedianOfTwoSortedArrays {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {

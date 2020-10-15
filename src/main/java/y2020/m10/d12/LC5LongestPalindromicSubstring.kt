@@ -1,4 +1,4 @@
-package y2020.oct12th
+package y2020.m10.d12
 
 object LC5LongestPalindromicSubstring {
     // Time : O(n ^ 2)

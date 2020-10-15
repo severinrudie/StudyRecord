@@ -1,8 +1,8 @@
-package y2020.oct14th
+package y2020.m10.d14
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import y2020.oct14th.LC10RegularExpressionMatching.isMatch
+import y2020.m10.d14.LC10RegularExpressionMatching.isMatch
 
 internal class LC10RegularExpressionMatchingTest {
 
