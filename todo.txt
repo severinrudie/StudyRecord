@@ -1,5 +1,4 @@
 Bad solutions, redo:
-6-ZigZagConversion
 
 
 Faster available
