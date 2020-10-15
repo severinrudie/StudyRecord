@@ -11,5 +11,11 @@ Faster available
 
 
 Skipped
-15-3sum
-16-3sum closest
+18 - 4Sum
+
+
+Solved, but worth looking at again later:
+15 - 3sum
+11 - Container with Most Water
+10 - Regular Expression Matching
+
