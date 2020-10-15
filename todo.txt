@@ -1,5 +1,4 @@
 Bad solutions, redo:
-2-AddTwoNumbers
 6-ZigZagConversion
 
 
