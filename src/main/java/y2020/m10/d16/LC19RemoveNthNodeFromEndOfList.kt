@@ -2,6 +2,8 @@ package y2020.m10.d16
 
 import shared.ListNode
 
+// Medium, 35%
+// O(n) time, O(1) space
 object LC19RemoveNthNodeFromEndOfList {
     fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
         if (head == null) return null
