@@ -1,16 +1,6 @@
 package y2020.m10.d12
 
-class ListNode(val `val`: Int) {
-    var next: ListNode? = null
-
-    override fun toString(): String {
-        return `val`.toString() + if (next != null) next!!.toString() else ""
-    }
-
-    override fun equals(other: Any?): Boolean {
-        return this.toString() == other.toString()
-    }
-}
+import shared.ListNode
 
 // TODO bad solution, rewrite
 object LC2AddTwoNumbers {
