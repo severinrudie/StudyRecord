@@ -1,13 +1,15 @@
 package shared
 
-class ListNode(val `val`: Int) {
-    var next: ListNode? = null
-
+data class ListNode(val `val`: Int, var next: ListNode? = null) {
     override fun toString(): String {
-        return `val`.toString() + if (next != null) next!!.toString() else ""
-    }
-
-    override fun equals(other: Any?): Boolean {
-        return this.toString() == other.toString()
+        return `val`.toString() + if (next != null) " -> " + next!!.toString() else ""
     }
 }
+
+//
+//    override fun equals(other: Any?): Boolean {
+//        return (other is ListNode) &&
+//                (this.next == other.next) &&
+//                (this.`val` == other.`val`)
+//    }
+//}

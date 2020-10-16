@@ -3,6 +3,7 @@ package y2020.m10.d12
 import y2020.m10.d12.LC2AddTwoNumbers.addTwoNumbers
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
+import shared.ListNode
 
 internal class LC2AddTwoNumbersTest {
 
