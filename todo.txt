@@ -12,6 +12,7 @@ Faster available
 
 Skipped
 18 - 4Sum
+22 - Generate parentheses
 
 
 Solved, but worth looking at again later:
