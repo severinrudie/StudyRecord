@@ -19,11 +19,3 @@ data class ListNode(val `val`: Int, var next: ListNode? = null) {
         }
     }
 }
-
-//
-//    override fun equals(other: Any?): Boolean {
-//        return (other is ListNode) &&
-//                (this.next == other.next) &&
-//                (this.`val` == other.`val`)
-//    }
-//}
