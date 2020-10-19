@@ -1,5 +1,6 @@
 package y2020.m10.d19
 
+// O(n) time, O(1) space
 object LC26RemoveDuplicatesFromSortedArray {
     fun removeDuplicates(nums: IntArray): Int {
         if (nums.isEmpty()) return 0
