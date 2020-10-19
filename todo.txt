@@ -1,5 +1,5 @@
 Bad solutions, redo:
-
+25 - Reverse Nodes in k Group
 
 Had to look up help:
 15-3sum
