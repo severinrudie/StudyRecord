@@ -7,14 +7,10 @@ internal class ScratchTest {
     @Test
     fun t() {
 
-        assertEquals(
-                ListNode(0, ListNode(1)),
-                ListNode(0, ListNode(1))
-        )
+        val nums = listOf(1, 2, 1)
 
-
-        println(ListNode(0, ListNode(1, ListNode(2))))
-
+        val map = nums.groupingBy { it }.eachCount()
+        
     }
 
 
