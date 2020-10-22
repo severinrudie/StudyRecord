@@ -1,5 +1,6 @@
 package y2020.m10.d21;
 
+// O(n) time, O(1) space
 public class EDU7ReplacingOnes {
     public static int findLength(int[] arr, int k) {
         int longest = 0;
