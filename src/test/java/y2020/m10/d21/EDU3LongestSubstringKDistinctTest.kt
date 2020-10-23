@@ -1,8 +1,8 @@
 package y2020.m10.d21
 
 import org.junit.jupiter.api.Test
-import y2020.m10.d21.EDU3LongestSubstringKDistinct.findLength
-import y2020.m10.d21.EDU3LongestSubstringKDistinct.getUniques
+import y2020.m10.d21.EDU_1_3LongestSubstringKDistinct.findLength
+import y2020.m10.d21.EDU_1_3LongestSubstringKDistinct.getUniques
 import kotlin.test.assertEquals
 
 internal class EDU3LongestSubstringKDistinctTest {

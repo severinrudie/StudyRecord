@@ -6,7 +6,7 @@ import java.util.Optional;
 
 // O(nk) time, O(k) space (where k == distinct chars in str)
 // Note that the (better) provided solution was O(n), O(k)
-public class EDU6CharacterReplacement {
+public class EDU_1_6CharacterReplacement {
     public static int findLength(String str, int k) {
         int longest = 0;
         int left = 0;

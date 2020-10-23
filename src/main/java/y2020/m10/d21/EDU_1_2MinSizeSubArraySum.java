@@ -1,7 +1,7 @@
 package y2020.m10.d21;
 
 // O(n) time, O(1) space
-class EDU2MinSizeSubArraySum {
+class EDU_1_2MinSizeSubArraySum {
     public static int findMinSubArray(int target, int[] arr) {
         if (arr.length == 0) return -1;
 

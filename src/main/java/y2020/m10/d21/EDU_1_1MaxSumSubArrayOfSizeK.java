@@ -3,7 +3,7 @@ package y2020.m10.d21;
 // https://www.educative.io/courses/grokking-the-coding-interview/JPKr0kqLGNP
 // Easy
 // O(n) time, O(1) space
-class EDU1MaxSumSubArrayOfSizeK {
+class EDU_1_1MaxSumSubArrayOfSizeK {
     public static int findMaxSumSubArray(int k, int[] arr) {
         int start = 0;
         int end = 0;

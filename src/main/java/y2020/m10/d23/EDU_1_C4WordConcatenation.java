@@ -4,7 +4,7 @@ import java.util.*;
 
 // O(nkl) time, where k == words.length and l == length of words in k
 // O(n + m) space, where m == space used by words
-public class EDU_C4WordConcatenation {
+public class EDU_1_C4WordConcatenation {
     public static List<Integer> findWordConcatenation(String str, String[] words) {
         if (words.length == 0 || str.length() == 0) return new ArrayList<>();
         Set<String> wordSet = new HashSet<>(Arrays.asList(words));

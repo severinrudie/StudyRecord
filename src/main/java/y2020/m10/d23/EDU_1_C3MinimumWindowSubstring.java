@@ -6,7 +6,7 @@ import java.util.Set;
 
 // O(n) [O(n + k), but k is guaranteed to be smaller than n] time
 // O(k) space [technically O(n) in the case that str is an anagram of pattern, since the return string will be n long]
-public class EDU_C3MinimumWindowSubstring {
+public class EDU_1_C3MinimumWindowSubstring {
     public static String findSubstring(String str, String pattern) {
         if (pattern.length() > str.length()) return "";
 

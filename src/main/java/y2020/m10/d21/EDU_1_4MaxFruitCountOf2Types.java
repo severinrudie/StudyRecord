@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // O(n) time, O(1) space
-class EDU4MaxFruitCountOf2Types {
+class EDU_1_4MaxFruitCountOf2Types {
     public static int findLength(char[] arr) {
         if (arr.length == 0) return 0;
         int longest = 0;

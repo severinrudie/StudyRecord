@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 // Note, EDU solution is O(n + k) time and O(k) space
 // O(nk) time, O(k) space, where k == length of pattern
-public class EDU_C1StringPermutation {
+public class EDU_1_C1StringPermutation {
     public static boolean findPermutation(String str, String pattern) {
         if (str.length() == 0 || pattern.length() > str.length()) return false;
 

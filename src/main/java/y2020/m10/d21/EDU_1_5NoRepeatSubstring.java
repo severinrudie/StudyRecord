@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // O(n) time, O(k) space (where k == distinct chars in str)
-public class EDU5NoRepeatSubstring {
+public class EDU_1_5NoRepeatSubstring {
     public static int findLength(String str) {
         int maxLen = 0;
         int left = 0;

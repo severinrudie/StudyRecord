@@ -1,10 +1,10 @@
 package y2020.m10.d21
 
 import org.junit.jupiter.api.Test
-import y2020.m10.d21.EDU2MinSizeSubArraySum.findMinSubArray
+import y2020.m10.d21.EDU_1_2MinSizeSubArraySum.findMinSubArray
 import kotlin.test.assertEquals
 
-internal class EDU2MinSizeSubArraySumTest {
+internal class EDU12MinSizeSubArraySumTest {
 
     @Test
     fun tc1() {

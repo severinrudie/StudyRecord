@@ -6,7 +6,7 @@ import java.util.List;
 
 // Note that EDU's solution is O(n + k) time and O(k) space
 // O(nk) time, O(k) space
-public class EDU_C2StringAnagrams {
+public class EDU_1_C2StringAnagrams {
     public static List<Integer> findStringAnagrams(String str, String pattern) {
         List<Integer> resultIndices = new ArrayList<Integer>();
         HashMap<Character, Integer> patCount = new HashMap<>();

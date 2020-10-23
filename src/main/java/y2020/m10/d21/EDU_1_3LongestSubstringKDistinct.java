@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // O(n) time, O(k) space
-public class EDU3LongestSubstringKDistinct {
+public class EDU_1_3LongestSubstringKDistinct {
     public static int findLength(String str, int k) {
         int longest = Integer.MIN_VALUE;
         Map<Character, Integer> map = new HashMap<>();
