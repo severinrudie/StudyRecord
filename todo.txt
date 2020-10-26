@@ -3,6 +3,7 @@ Bad solutions, redo:
 
 Had to look up help:
 15-3sum
+EDU_2_6 - https://www.educative.io/courses/grokking-the-coding-interview/mElknO5OKBO
 
 
 
