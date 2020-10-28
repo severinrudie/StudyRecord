@@ -1,7 +1,6 @@
 package y2020.m10.d28;
 
-import java.util.Arrays;
-
+// O(n) time, O(1) space
 public class EDU_2_C3_ShortestWindowSort {
     public static int sort(int[] arr) {
         if (arr.length < 2) return 0;
