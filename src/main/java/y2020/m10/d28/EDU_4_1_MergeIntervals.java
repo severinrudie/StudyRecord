@@ -1,25 +1,17 @@
 package y2020.m10.d28;
 
-import java.util.Arrays;
+import shared.Interval;
+import shared.ListNode;
+
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
-
-class Interval {
-    int start;
-    int end;
-
-    public Interval(int start, int end) {
-        this.start = start;
-        this.end = end;
-    }
-};
 
 // O(n log n) time, O(n) space
 public class EDU_4_1_MergeIntervals {
     public static List<Interval> merge(List<Interval> intervals) {
         intervals.sort(Comparator.comparing(interval -> interval.start));
-        LinkedList<Interval> mergedIntervals = new LinkedList<Interval>();
+        LinkedList<Interval> mergedIntervals = new LinkedList<>();
         mergedIntervals.addLast(intervals.get(0));
 
         for (int i = 1; i < intervals.size(); i++) {
