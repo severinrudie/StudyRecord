@@ -1,5 +1,6 @@
 Bad solutions, redo:
 25 - Reverse Nodes in k Group
+EDU_3_C2_RearrangeList - https://www.educative.io/courses/grokking-the-coding-interview/qAo438WozV7
 
 Had to look up help:
 15-3sum
