@@ -14,6 +14,7 @@ Faster available
 EDU-2-C2-BackspaceCompare https://www.educative.io/courses/grokking-the-coding-interview/xVKE8MJDlzq
 EDU_3_3_HappyNumber https://www.educative.io/courses/grokking-the-coding-interview/39q3ZWq27jM
 EDU_4_C1_MinimumMeetingRooms https://www.educative.io/courses/grokking-the-coding-interview/JQMAmrVPL7l
+EDU_5_C3_FindEmployeeFreeTime https://www.educative.io/courses/grokking-the-coding-interview/RLwKZWgMJ1q
 
 
 Skipped
@@ -21,6 +22,7 @@ Skipped
 22 - Generate parentheses
 29 - Divide Two Integers
 31 - Next Permutation
+EDU_4-C2 - MaximumCPULoad https://www.educative.io/courses/grokking-the-coding-interview/xVlyyv3rR93
 
 
 Solved, but worth looking at again later:
