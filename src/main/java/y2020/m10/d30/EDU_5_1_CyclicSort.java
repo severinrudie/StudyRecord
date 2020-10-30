@@ -1,5 +1,6 @@
 package y2020.m10.d30;
 
+// O(n) time, O(1) space
 public class EDU_5_1_CyclicSort {
     public static void sort(int[] nums) {
         int i = 0;
