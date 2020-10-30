@@ -13,6 +13,7 @@ Faster available
 10-RegularExpressionMatching: DP solution https://leetcode.com/problems/regular-expression-matching/discuss/853296/Kotlin-Dynamic-Programming-(2-Dimensional)-timespace%3A-O(lenS-*-lenP)
 EDU-2-C2-BackspaceCompare https://www.educative.io/courses/grokking-the-coding-interview/xVKE8MJDlzq
 EDU_3_3_HappyNumber https://www.educative.io/courses/grokking-the-coding-interview/39q3ZWq27jM
+EDU_4_C1_MinimumMeetingRooms https://www.educative.io/courses/grokking-the-coding-interview/JQMAmrVPL7l
 
 
 Skipped
