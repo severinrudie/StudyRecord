@@ -29,6 +29,6 @@ Solved, but worth looking at again later:
 15 - 3sum
 11 - Container with Most Water
 10 - Regular Expression Matching
-EDU_5_C1_FindTheCorruptPair (straightforward, but after a weekend off I blanked on how to cyclic sort. do it again)
+EDU_5_C1_FindTheCorruptPair [note this was a brick brain day] (straightforward, but after a weekend off I blanked on how to cyclic sort. do it again)
 
 
