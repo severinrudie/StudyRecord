@@ -6,7 +6,16 @@ data class ListNode @JvmOverloads constructor(
         val containsCycle: Boolean = false
 ) {
     override fun toString(): String {
-        if (this.containsCycle) return `val`.toString()
+        if (this.containsCycle) return "$`val` (cycle)"
+
+        var fast = this.next;
+        var slow = this;
+        while (fast?.next != null && fast.next!!.next != null) {
+            fast = fast.next!!.next
+            slow = slow.next!!
+            if (fast == slow) return "$`val` (cycle)"
+        }
+
         return `val`.toString() + if (next != null) " -> " + next!!.toString() else ""
     }
 
