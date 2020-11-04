@@ -1,0 +1,5 @@
+
+
+`cmd + ]` : increase indent
+`cmd + [` : decrease indent
+`cmd + shift + x` : strikethrough
