@@ -2,8 +2,14 @@ package shared
 
 import kotlin.math.max
 
-data class TreeNode(val `val`: Int, val left: TreeNode?, val right: TreeNode?) {
+data class TreeNode(
+        @JvmField val `val`: Int,
+        @JvmField val left: TreeNode?,
+        @JvmField val right: TreeNode?
+) {
     companion object {
+        fun from(list: List<List<Int>>): TreeNode = from(*list.toTypedArray())
+
         fun from(vararg list: List<Int>): TreeNode {
             val last = mutableListOf<TreeNode>()
             val next = mutableListOf<TreeNode>()
@@ -61,7 +67,7 @@ data class TreeNode(val `val`: Int, val left: TreeNode?, val right: TreeNode?) {
                     "\n"
         }
 
-        return result.replaceAfterLast('\n', "")
+        return result
     }
 }
 

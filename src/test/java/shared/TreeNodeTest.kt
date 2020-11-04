@@ -2,7 +2,6 @@ package shared
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import kotlin.math.pow
 
 internal class TreeNodeTest {
     @Test
