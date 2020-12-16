@@ -1,6 +1,5 @@
-
 fn add_two(a: i32) -> i32 {
-    return a + 2
+    return a + 2;
 }
 
 #[cfg(test)]
