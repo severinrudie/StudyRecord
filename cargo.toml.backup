@@ -1,3 +1,6 @@
+# For whatever reason, JUnit doesn't find any new Java/Kt tests when this file
+# exists.  Rename to *.backup when working in Kt
+
 [package]
 name = "StudyRecord"
 version = "0.1.0"
