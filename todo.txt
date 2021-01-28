@@ -15,6 +15,7 @@ EDU-2-C2-BackspaceCompare https://www.educative.io/courses/grokking-the-coding-i
 EDU_3_3_HappyNumber https://www.educative.io/courses/grokking-the-coding-interview/39q3ZWq27jM
 EDU_4_C1_MinimumMeetingRooms https://www.educative.io/courses/grokking-the-coding-interview/JQMAmrVPL7l
 EDU_5_C3_FindEmployeeFreeTime https://www.educative.io/courses/grokking-the-coding-interview/RLwKZWgMJ1q
+EDU_9_C1_NextInterval https://www.educative.io/courses/grokking-the-coding-interview/gkkmqXO6zrY
 
 
 Skipped
