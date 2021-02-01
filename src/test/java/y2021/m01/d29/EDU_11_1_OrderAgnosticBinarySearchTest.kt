@@ -2,6 +2,7 @@ package y2021.m01.d29
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
+import y2021.m02.d01.EDU_11_1_OrderAgnosticBinarySearch
 
 internal class EDU_11_1_OrderAgnosticBinarySearchTest {
 
