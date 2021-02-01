@@ -4,8 +4,8 @@ import kotlin.math.max
 
 data class TreeNode(
         @JvmField val `val`: Int,
-        @JvmField var left: TreeNode?,
-        @JvmField var right: TreeNode?
+        @JvmField var left: TreeNode? = null,
+        @JvmField var right: TreeNode? = null
 ) {
     companion object {
         fun from(list: List<List<Int>>): TreeNode = from(*list.toTypedArray())
