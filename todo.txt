@@ -38,5 +38,6 @@ Solved, but worth looking at again later:
 EDU_5_C1_FindTheCorruptPair [note this was a brick brain day] (straightforward, but after a weekend off I blanked on how to cyclic sort. do it again)
 EDU_6_3_ReverseEveryKElements && EDU_6_2_ReverseSubList - this should be easy, but I keep writing convoluted answers.  Try again later
 Pramp_DecryptMessage
+EDU_11_C3_RotationCount - https://www.educative.io/courses/grokking-the-coding-interview/7nPmB8mZ6vj
 
 
