@@ -11,6 +11,7 @@ Had to look up help:
 EDU_2_6 - https://www.educative.io/courses/grokking-the-coding-interview/mElknO5OKBO
 EDU_10_2 - https://www.educative.io/courses/grokking-the-coding-interview/7npk3V3JQNr
 EDU_10_C2 - EDU_10_C2_StructurallyUniqueBinarySearchTrees
+EDU_12_1_SingleNumber - https://www.educative.io/courses/grokking-the-coding-interview/gk20xz4VwpG
 
 
 
