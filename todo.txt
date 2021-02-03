@@ -30,6 +30,7 @@ Skipped
 29 - Divide Two Integers
 31 - Next Permutation
 EDU_4-C2 - MaximumCPULoad https://www.educative.io/courses/grokking-the-coding-interview/xVlyyv3rR93
+EDU_13_9 (question is unclear) - https://www.educative.io/courses/grokking-the-coding-interview/gx6oKY8PGYY
 
 
 Solved, but worth looking at again later:
