@@ -4,7 +4,7 @@ import java.util.*
 
 class EDU_13_8_KClosestNumbers {
 
-    // O(n log k) time, O(k) space // There's a more efficient algo: BS to closest num, two pointer outwards
+    // O(n log k) time, O(k) space
     fun findClosestElements(arr: IntArray, outputSize: Int, target: Int): List<Int> {
         val below = PriorityQueue<Int>() // min
         val above = PriorityQueue<Int>(Comparator.reverseOrder()) // max
