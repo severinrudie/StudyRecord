@@ -11,6 +11,7 @@ internal class LC1057CampusBikesTest {
 
     @Test
     fun tc1() {
+
         val queue = PriorityQueue<Pairing> { a, b ->
             when {
                 a.distance != b.distance -> a.distance - b.distance
