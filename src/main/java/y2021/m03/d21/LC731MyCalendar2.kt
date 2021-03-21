@@ -7,7 +7,7 @@ class LC731MyCalendar2 {
 
         val tm = TreeMap<Int, Int>()
 
-        // O(n) time, O(1) space
+        // O(n) time, O(1) space [per call]
         fun book(start: Int, end: Int): Boolean {
             tm[start] = (tm[start] ?: 0) + 1
             tm[end] = (tm[end] ?: 0) - 1

@@ -5,7 +5,7 @@ import java.util.*
 class LC729MyCalendar1 {
     private val cal = TreeSet<IntRange> { a, b -> a.start - b.start }
 
-    // O(log n) time, O(n) space
+    // O(log n) time, O(1) space [per call]
     fun book(start: Int, end: Int): Boolean {
         val floor = cal.floor(start..end)
         val ceil = cal.ceiling(start..end)
